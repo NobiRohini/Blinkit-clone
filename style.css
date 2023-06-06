@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", sans-serif;
+}
+header {
+  width: 100%;
+  height: 86px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  position: sticky;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.header-logo {
+  margin-left: 32px;
+  margin-right: 100px;
+}
+.header-address {
+  margin-right: 32px;
+}
+.header-address-title {
+  color: black;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+.header-address-location {
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+}
+.header-search {
+  display: flex;
+  width: 832px;
+  height: 46px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  background-color: rgb(248, 248, 248);
+  padding: 0px 12px;
+  cursor: text;
+  align-items: center;
+  gap: 8px;
+  margin-right: 70px;
+}
+.header-search svg {
+  width: 20px;
+  font-weight: 600;
+}
+.header-search input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.header-login {
+  font-weight: 400;
+  font-size: 18px;
+  color: (54, 54, 54);
+  margin-right: 20px;
+}
+.header-cart {
+  width: 112px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+}
+.header-cart svg {
+  width: 20px;
+  font-weight: 400;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.section-1 img {
+  width: 100%;
+}
+.section-2 {
+  display: flex;
+  gap: 20px;
+  overflow: scroll;
+  border-radius: 10px;
+}
+.section-2 img {
+  width: 30%;
+}
+.section-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-3 img {
+  width: 100%;
+  height: 190px;
+}
+.section-3 img:hover {
+  cursor: pointer;
+  height: 210px;
+  transition: all 0.5s;
+}
+.section-4 {
+  margin: 16px;
+}
+.section-header {
+  font-size: 24px;
+  font-weight: 500;
+}
+.section-list {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  overflow: auto scroll;
+  gap: 20px;
+}
+.product-card {
+  padding: 12px;
+  width: 154px;
+  border: 0.5px solid rgb(221, 221, 221);
+  border-radius: 8px;
+}
+.product-card img {
+  width: 100%;
+}
+.product-card-title {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.product-card-desc {
+  font-size: 12px;
+  margin-bottom: 12px;
+  color: #757575;
+}
+.product-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-action button {
+  width: 90px;
+  height: 36px;
+  background-color: rgb(247, 255, 249);
+  border: 0.5px solid rgb(12, 131, 31);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  margin-top: 32px;
+  padding: 20px;
+  text-align: center;
+}
